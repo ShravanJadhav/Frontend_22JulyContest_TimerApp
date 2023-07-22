@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+  }
+  
+  .container {
+    max-width: 600px;
+    background-color: #181d3f;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  input::placeholder{
+    color: white;
+    font-size: large;
+  }
+  
+  .timer-input-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 70px;
+    padding: 5px;
+    background-color: #181d3f;
+    color: white;
+    border: 1px;
+    
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #c7eb50;
+    color: #151313;
+    font:bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .active-timers-display-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#27316e;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .timer .time {
+    font-size: 18px;
+  }
+  
+  .timer .stop-btn {
+    background-color: #dc3545;
+  }
